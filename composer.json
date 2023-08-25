@@ -25,8 +25,18 @@
   "conflict": {
     "composer/installers": "<1.0.6"
   },
+  "extra": {
+    "class": "VAF\\WP\\Framework\\Composer\\Plugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "VAF\\WP\\Framework\\Composer\\": "src/"
+    }
+  },
+
   "require": {
-    "php": ">=8.1"
+    "php": ">=8.1",
+    "composer-plugin-api": "^2.3"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.22",
