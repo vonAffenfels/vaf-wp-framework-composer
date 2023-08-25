@@ -1,0 +1,36 @@
+{
+  "name": "vonaffenfels/vaf-wp-framework-composer",
+  "type": "composer-plugin",
+  "description": "Composer plugin to handle packages depending on vaf-wp-framework",
+  "homepage": "https://github.com/vonAffenfels/vaf-wp-framework-composer",
+  "authors": [
+    {
+      "name": "Christoph Friedrich",
+      "email": "christoph.friedrich@vonaffenfels.de",
+      "homepage": "https://www.vonaffenfels.de"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/vonAffenfels/vaf-wp-framework/issues"
+  },
+  "keywords": [
+    "composer",
+    "vonaffenfels",
+    "vaf",
+    "wp",
+    "framework"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "conflict": {
+    "composer/installers": "<1.0.6"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.22",
+    "squizlabs/php_codesniffer": "^3.6",
+    "composer/composer": "^2.5"
+  }
+}
